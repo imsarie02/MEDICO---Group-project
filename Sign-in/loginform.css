@@ -1,0 +1,141 @@
+/* Global styles */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Container styles */
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(116, 145, 189, 0.8), rgba(116, 145, 189, 0.8)), url(background.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;   
+}
+
+/* Form box styles */
+.form-box{
+    width: 60%;
+    max-width: 450px;
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 50px 60px 70px;
+    text-align: center;
+}
+
+/* Input field image styles */
+.input-field img{
+    height: 20px;
+    width: auto;
+    margin-right: 5px;
+    margin-top: 0px;
+    margin-left: 20px;
+}
+
+/* Heading styles */
+.form-box h1{
+    font-size: 30px;
+    margin-bottom: 60px;
+    color: #3c00a0;
+    position: relative;
+}
+
+/* Heading underline styles */
+.form-box h1::after{
+    content: '';
+    width: 30px;
+    height: 4px;
+    border-radius: 3px;
+    background: #3c00a0;
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Input field styles */
+.input-field{
+    background: #eaeaea;
+    margin: 10px 0px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+}
+
+/* Input styles */
+input{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 18px 15px;
+}
+
+/* Paragraph styles */
+form p{
+    text-align: left;
+    font-size: 13px;
+}
+
+/* Link styles */
+form p a {
+    text-decoration: none;
+    color: #3c00a0;
+}
+
+/* Button field styles */
+.btn-field{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Button styles */
+.btn-field button{
+    flex-basis: 48%;
+    background: #3c00a0;
+    color: #fff;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+
+/* Button hover styles */
+.btn-field button:hover{
+    background-color: #160d7a;
+    font-weight: 550;
+}
+
+/* Button link styles */
+.btn-field button a{
+    color: #fff;
+}
+
+/* Input group styles */
+.input-group{
+    height: 240px;
+}
+
+/* Input group link styles */
+.input-group a{
+    color: #0e17bc;
+}
+
+/* Disabled button styles */
+.btn-field button.disable{
+    background: #eaeaea;
+    color: #171717;
+}
+
+/* Disabled button hover styles */
+.btn-field button.disable:hover{
+    background-color: #dbdbdb;
+}
