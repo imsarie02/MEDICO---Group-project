@@ -1,0 +1,66 @@
+body{
+  background: #000;
+  background-image: linear-gradient(rgba(58, 82, 129, 0.453),rgba(58, 82, 129, 0.453)), url(bonecare.jpg);
+  background-size: cover;
+}
+.back{
+  margin-left: 10px;
+  margin: 5px;
+}
+.back a{
+  text-decoration: none;
+  font-size: 10px;
+  background-color: rgba(255, 247, 0, 0.277);
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  border-radius: 10px;
+}
+.back a:hover{
+  text-decoration: none;
+  font-size: 10px;
+  background-color: rgba(255, 0, 0, 0.277);
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  border-radius: 10px;
+  transition: .5s;
+}
+div h1{
+  margin-top: 70px;
+  margin-left: 50px;
+}
+
+div p{
+  margin-top: 70px;
+  margin-left: 50px;
+  max-width: 800px;
+  font-size: 25px;
+  text-align: justify;
+  background-color: rgba(255, 255, 255, 0.173);
+  padding: 20px;
+  border-radius: 20px;
+  
+}
+.button{
+  margin-top: 50px;
+  margin-left: 770px;
+  
+}
+.button a{
+  text-decoration: none;
+  font-size: 20px;
+  background-color: rgba(0, 200, 255, 0.277);
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  border-radius: 10px;
+
+}
+.button a:hover{
+  text-decoration: none;
+  font-size: 20px;
+  background-color: rgba(0, 55, 255, 0.367);
+  color: beige;
+  padding: 20px;
+  border-radius: 9px;
+  transition: .5s;
+
+}

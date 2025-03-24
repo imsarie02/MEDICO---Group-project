@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>MEDICO</title>
+	      <link rel="icon" href="../logo.png" type="image/png">
+        <link rel="stylesheet" href="feedback.css">  
+        <link rel="stylesheet" href="../CWK/style.css">
+    </head>
+
+
+    <body> <!-- Header Section -->
+        <header class="header" id="home">
+            <img class="logo"  src="../logo.png" alt="logo.jpg">
+            <!-- Navigation -->
+            <nav class="navbar">
+              <div class="navdiv">         
+                <ul class="main-nav-list">
+                  <!-- Navigation Links -->
+                      <li><a class="main-nav-link" href="../Home/home.html">HOME</a></li>
+                      <li><a class="main-nav-link" href="../../Student 1/shop.html">SHOP</a></li>
+                      <li><a class="main-nav-link" href="../../Student 4/Gallery/Gallery.html">GALLERY</a></li>
+                      <li><a class="main-nav-link" href="../../Student 4/Site Map/Site_Map.html">SITEMAP</a></li>
+                      <li><a class="main-nav-link" href="../Feedback/feedback.html">FEEDBACK</a></li>
+                      <li><a class="main-nav-link" href="../../Student 3/Team/team.html">ABOUT US</a></li>
+                      <li><a class="main-nav-link" href="../../Student 1/addtional(content)/content.html">LEARN MORE</a></li>
+                      
+                </ul>
+                <!-- Cart Button -->
+                <button class="cart-button"><img src="../images/cart.png" alt="cart"><span>Cart</span></button>
+                 <!-- User Profile -->
+                <button class="image-button"><img src="../images/user.png" alt="login"><span>Login</span></button>
+              </div>
+            </nav>
+          </header>
+    
+          <!-- Feedback Form Section -->
+ 
+        <form id="FeedBackForm">
+          <h2 class="heading">GIVE US YOUR FEEDBACK</h2>
+          <!-- Feedback Form with fieldset -->
+          <fieldset class="f1">  
+              <div class="form-group">
+                  <label for="fname">First Name:</label>
+                  <input type="text" name="fname" id="fname" placeholder="Enter a First Name" required>
+              </div>
+              <div class="form-group">
+                <label  for="lname">Last Name:</label>
+                <input type="text" name="lname" id="lname" placeholder="Enter a Last Name"  required>
+            </div>
+              <div class="form-group">
+                <label  for="emailAdd">Email address:</label>
+                <input type="email" name="emailAdd" id="emailAdd" placeholder="Enter email" required>
+              </div>
+                <!-- Radio Option -->
+              <div  class="form-group">
+                <label>Would you recommend it to your friends and family?</label>
+                <label for="yes">Yes</label>
+                <input type="radio" name="yes/no" id="yes" required>
+        
+                <label for="no">No</label>
+                <input type="radio" name="yes/no" id="no" required> 
+              </div>
+              <div  class="form-group">
+                <label>How satisfied are you with our Pharmacy overall?</label>
+                <label for="vSfied">Very Satisfied</label>
+                <input type="radio" name="rate" id="vSfied" >
+        
+                <label for="Sfied">Satisfied</label>
+                <input type="radio" name="rate" id="Sfied"> 
+
+                <label for="Undecided">Undecided</label>
+                <input type="radio" name="rate" id="Undecided"> 
+
+                <label for="Unfied">Unsatisfied</label>
+                <input type="radio" name="rate" id="Unfied"> 
+
+                <label for="vUnfied">Very Unsatisfied</label>
+                <input type="radio" name="rate" id="vUnfied"> 
+              </div>
+              <br>
+
+              <div class="form-group">
+                How satisfied are you with each of the following aspects of our services?<br>
+                Please rank by marking tick in the box that truly reflect your satisfacion levels<br><br>
+                    <!-- Satisfied Table -->
+                <table >
+                  <tr>
+                    <th></th> 
+                    <th>EXCELENT</th>
+                    <th>GOOD</th>
+                    <th>FAIR</th>
+                    <th>POOR</th>
+                    <th>N/A</th>
+                  </tr>
+
+
+                  <tr>
+
+                    <td class="sentance">Service Quality</td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td> 
+                  </tr>
+
+                  <tr>
+
+                    <td class="sentance">Answers the phone calls</td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                  </tr>
+
+                  <tr>
+                    <td class="sentance">Fills your prescriptions on time</td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                  </tr>
+
+                  <tr>
+
+                    <td class="sentance">Provides advice on medications services</td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                  </tr>
+
+                  <tr>
+
+                    <td class="sentance">Overall customer service</td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+
+                  </tr>
+                  
+                </table>
+              </div>
+                <!-- Text Area -->
+              <div  class="form-group">
+                <label class="ques" for="spRep">What do you like best about our pharmacy?</label>
+                <textarea id="spRep"></textarea>
+              </div>
+                <!-- Text Area -->
+              <div  class="form-group">
+                <label class="ques" for="sug">Suggestions for improvement?</label>
+                <textarea id="sug"></textarea>
+              </div>
+
+              <button type="submit">Submit</button><!-- Submit Button -->
+              <button type="reset">Clear</button> <!-- clear Button -->
+          </fieldset>
+        </form>
+        <div id="feedback"></div>  
+        <!-- Footer Section -->
+        <footer>
+          <div class="content">
+            <div class="top">
+              <div class="logo-details">
+                <span class="logo_name">MEDICO Pharmacy</span>
+              </div>
+            </div>
+            
+           
+            <div class="link-boxes">
+            <ul class="box">
+              <li class="link_name">Company</li>
+              <li><a href="#">MEDICO</a></li>
+              <li><a href="#"> Colombo 7, Sri Lanka </a></li>
+              <li><a href="#">medicohealthcare.com</a></li>
+              <li><a href="#">medico.healthcare@gmail.com</a></li>
+              <li><a href="#"> +94 76 456 7901</a></li>
+            </ul>
+            <ul class="box">
+              <li class="link_name">Services</li>
+              <li><a href="#"> Medicines Use Review </a></li>
+              <li><a href="#"> Supplying medicines </a></li>
+              <li><a href="#"> Medication reviews </a></li>
+              <li><a href="#"> Medical devices </a></li>
+            </ul>
+            <ul class="box">
+              <li class="link_name"> Links </li>
+              <li><a href="../Home/home.html"> Home </a></li>
+              <li><a href="../../Student 1/shop.html"> Shop  </a></li>
+              <li><a href="../../Student 4/Gallery/Gallery.html"> Gallery </a></li>
+              <li><a href="../../Student 4/Site Map/Site_Map.html"> Sitemap  </a></li>
+              <li><a href="../Feedback/feedback.html"> Feed back </a></li>
+            </ul>
+            <ul class="box">
+              <li class="link_name">Brands</li>
+              <li><a href="#">GSK</a></li>
+              <li><a href="#">Jonson & jonson</a></li>
+              <li><a href="#">Novartis</a></li>
+              <li><a href="#">Sanofi</a></li>
+              <li><a href="#">MERCK</a></li>
+              <li><a href="#">Pfizer</a></li>
+            </ul>
+            <ul class="box">
+              <li class="link_name"> Trust & Legal </li>
+              <li><a href="#"> Terms & Condition </a></li>
+              <li><a href="#"> Privacy Notic  </a></li>
+              <li><a href="#"> Cookie Notic</a></li>
+              <li><a href="#"> Trust Center  </a></li>
+      
+            </ul>
+            
+            </div>
+          </div>
+      
+           <!-- Bottom Details -->
+          <div class="bottom-details">
+            <div class="bottom_text">
+            <span class="copyright_text">Copyright © 2024 <a href="../../Student 1/splash-screen/splash.html">MEDICO</a>All rights reserved for IIT Web Design and Development Group Project</span>
+            <span class="policy_terms">
+              <a href="#">Privacy policy</a>
+              <a href="#">Terms & condition</a>
+            </span>
+            </div>
+          </div>
+        </footer>
+      <script src="feedback.js"></script> <!-- Linked Java Script file -->
+    </body>
+</html>

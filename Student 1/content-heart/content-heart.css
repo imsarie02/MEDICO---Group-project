@@ -1,0 +1,86 @@
+/* importing font google font */
+@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@100..800&display=swap');
+
+/* styling for the body */
+body{
+  font-family: "Anek Malayalam", sans-serif;
+  background: #000;
+  background-image: linear-gradient(rgba(58, 82, 129, 0.453),rgba(58, 82, 129, 0.453)), url(heartbg.jpg);
+  background-size: cover;
+}
+
+/* Styling for the back container */
+.back{
+  margin-left: 10px;
+  margin: 5px;
+}
+
+/* Styling for anchor in back container */
+.back a{
+  text-decoration: none;
+  font-size: 10px;
+  background-color: rgba(255, 247, 0, 0.277);
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+/* hover Styling for anchor in back container */
+.back a:hover{
+  text-decoration: none;
+  font-size: 10px;
+  background-color: rgba(255, 0, 0, 0.277);
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  border-radius: 10px;
+  transition: .5s;
+}
+
+/* Styling for the heading */
+div h1{
+  margin-top: 70px;
+  margin-left: 50px;
+}
+
+/* Styling for the paragraph */
+div p{
+  margin-top: 70px;
+  margin-left: 50px;
+  max-width: 800px;
+  font-size: 25px;
+  text-align: justify;
+  background-color: rgba(255, 255, 255, 0.173);
+  padding: 20px;
+  border-radius: 20px;
+  
+}
+
+/* Styling for the button */
+.button{
+  margin-top: 50px;
+  margin-left: 770px;
+  
+}
+
+/* Styling for the button anchor */
+.button a{
+  text-decoration: none;
+  font-size: 20px;
+  background-color: rgba(0, 200, 255, 0.277);
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  border-radius: 10px;
+
+}
+
+/*  hover Styling for the button anchor */
+.button a:hover{
+  text-decoration: none;
+  font-size: 20px;
+  background-color: rgba(0, 55, 255, 0.367);
+  color: beige;
+  padding: 20px;
+  border-radius: 9px;
+  transition: .5s;
+
+}

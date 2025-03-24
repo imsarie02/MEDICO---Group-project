@@ -1,0 +1,258 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* Body Styles */
+body{
+	background:#ffffff;
+} 
+
+
+/* Home Page Style */
+.homepage{
+	width:100%;
+	min-height:758px;
+	position:relative;
+	display:flex;
+	align-items:center;
+}
+
+.homepage img{
+	position:absolute;
+	width:100%;
+	height:100%;
+	object-fit:cover;
+	object-position:center;
+	z-index:-1;
+  margin-top: 40px;
+} 
+
+/* Home text Styles */
+.home-text{
+  position:absolute;
+  object-fit:cover;
+	z-index:1;
+	padding:150px;
+  margin-top: 90px;
+}
+
+.home-text h2{
+	color:rgb(0, 0, 0);
+	font-size:80px;
+	font-weight:700;
+	margin-bottom:4px;
+}  
+
+.home-text h3{
+  color:rgb(9, 9, 9);
+	font-size:15px;
+	font-weight:100;
+  text-align: justify;
+}
+
+/* Button Styles */
+.button1 {
+  height: 30px;
+  width: 90px;
+  margin-top: 40px;
+  background-color: transparent;
+
+  font-size: 16px;
+  border-style: solid;
+  border-color: rgb(9, 8, 8);
+  border-radius: 20px;
+  font-weight:bold ;
+}
+
+.shopwrd a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+/* Button hover Styles */
+.shopwrd a:hover,.button1:hover{
+  background-color: rgb(2, 2, 2);
+  color: white;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+
+.picture-container {
+  display: flex;
+  justify-content: space-around; /* Adjust the spacing between pictures */
+  flex-wrap: wrap; /* Wrap pictures to new line if space is not enough */
+}
+
+.picture-container img {
+  width: 150px; /* Adjust the width of the images */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 0px; /* Add space between images and captions */
+  border-radius: 20px;
+  margin-top: 50px;
+}
+
+/* Caption Styles */
+.caption {
+  text-align: center; /* Center the caption */
+  font-size: 14px; /* Adjust the font size of the captions */
+  font-weight: bolder;
+}
+
+/* Welcome note Styles */
+.wlcnote{
+  text-align: center;
+  margin-top: 60px;
+}
+
+.wlcnote h2{
+  font-size: 40px;
+  color: #195e75;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.wlcnote h3{
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.deals{
+  margin-top: 90px;
+  margin-left: 50px;
+}
+
+.deals{
+  font-weight: bold;
+  font-size: 40px;
+  color: #195e75;
+}
+
+
+
+/* Product showcase Styles */
+.product-showcase {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 70px;
+  background-color: #ffffff;
+}
+
+/* Product Card Styles */
+.product {
+  width: 200px;
+  margin: 20px;
+  text-align: center;
+  border-radius: 20px;
+  background-color: #f7f2f2;
+  margin-top: -40px;
+}
+
+/* Product image Styles */
+.product img {
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 0px;
+}
+
+.product h3 {
+  margin: 10px 0;
+}
+
+.product p {
+  margin-bottom: 10px;
+}
+
+.product button {
+  background-color: #395e85;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Product card button Styles */
+.product button:hover {
+  background-color: #363b41;
+}
+
+.product-showcase h1{
+  font-size: 30px;
+  margin-top: 0px;
+  margin-bottom: 90px;
+
+}
+
+
+.S4 {
+  position: relative; /* Ensure section acts as a positioning context */
+}
+
+/* Background image Styles */
+.S4 .p1 {
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover;
+  object-position: center;
+  margin-top: 130px;
+  z-index: -1;
+}
+
+.S4 .p2 {
+  position: absolute;
+  top: 13px; /* Adjust distance from top */
+  right: 10px; /* Adjust distance from right */
+  height: 470px; 
+  width: auto; 
+}
+
+/* Text Styles */
+.section4-h2{
+  font-size: 60px;
+  position: absolute;
+  top: 170px; 
+  left: 20px; 
+  font-size: 50px; 
+  color: rgb(0, 0, 0); 
+  z-index: 1; 
+}
+
+/* Register Button Styles */
+.S4 button {
+  background-color: #d7af1d;
+  color: #090808;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  padding: 18px 16px;
+  border-radius: 15px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 80px; /* Adjust distance from the bottom */
+  left: 100px;
+  z-index: 1; /* Ensure button appears above other elements */
+}
+
+.uplode{
+  text-decoration: none;
+  color: #000000;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: space-around; /* Adjust the spacing between pictures */
+  flex-wrap: wrap; /* Wrap pictures to new line if space is not enough */
+}
+
+.logo-container img {
+  width: 100px; /* Adjust the width of the images */
+  height: 100px; /* Maintain aspect ratio */
+  margin-bottom: 0px; /* Add space between images and captions */
+  border-radius: 50%;
+  margin-top: 50px;
+  border: 2px solid black;
+}
+

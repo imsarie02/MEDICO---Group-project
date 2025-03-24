@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+ /* Body Styles */ 
+body{
+    background-image: linear-gradient(rgba(116, 145, 189, 0.8), rgba(116, 145, 189, 0.8)), url(../images/feedbackbground.png);
+} 
+
+/* Form Styles */
+form {
+    text-align: center; 
+    padding-top: 100px;    
+    
+}
+
+/* Form heading Styles */
+.heading{
+    padding-top: 40px;
+    color: #000000;
+    font-size: 40px;
+    text-align: center;
+}
+
+/* Fieldset Styles */
+.f1 {
+    background-color: rgb(220, 220, 220);
+    border-radius: 20px;
+    display: inline-block; /* Adjusted to display the form as a block */
+    padding: 20px; 
+    margin-top: 50px; 
+    width: 50%; 
+    max-width: 600px; /* Added max-width to prevent the form from becoming too wide */
+}
+
+
+.form-group {
+    margin-bottom: 30px;
+    text-align: left; 
+}
+
+/* Input label Styles */
+label {
+    display: inline-block;
+    width: 70%; 
+    text-align: left; 
+    margin-right: -100px; /* Added margin-right for spacing between label and input */
+    margin-left: 0px;
+}
+
+/* Table Styles */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}    
+
+/* Table head/data Styles */
+th, td {
+    border: 1px solid  rgb(220, 220, 220);
+    padding: 8px;
+    text-align: center;
+}
+  
+input[type="checkbox"] {
+    margin: 0 auto;
+    display: block;
+}
+
+.sentance{
+    text-align: left;
+}
+  
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea,
+select {
+    width: 60%; /* Adjusted width of inputs */
+}
+
+/* Submit Button Styles */
+button[type="submit"]{
+    margin-right: 10px; 
+    cursor: pointer;
+    background-color: #395e85;
+    height: 30px;
+    width: 70px;
+    font-size: 14px;
+    color: #ffffff;
+    border-radius: 20px;
+
+}
+
+/* Reset Button Styles */
+button[type="reset"]{
+    margin-right: 380px;
+    cursor: pointer; 
+    background-color: rgb(186, 186, 172);
+    height: 30px;
+    width: 70px;
+    font-size: 14px;
+    border-radius: 20px;
+}

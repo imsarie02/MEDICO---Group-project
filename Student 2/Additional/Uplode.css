@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+    background-color: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: linear-gradient(rgba(166, 166, 190, 0.8), rgba(160, 160, 199, 0.8)), url(../images/Prescription1.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 40px;   
+}
+
+/* Header Styles */
+.header {
+  margin-top: -50px;
+}
+  
+
+/* Prescription */
+.page {
+  max-width: 500px;
+  margin: 200px auto; 
+  padding: 40px;
+  background-color: #c8c7c7; 
+  border: 2px dashed rgb(0, 0, 0); 
+  border-radius: 5px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px; 
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#message {
+  margin-top: 20px;
+  text-align: center;
+}
+
+input[type="file"] {
+  margin-bottom: 20px;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

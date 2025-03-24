@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    justify-content: center;
+    gap: 30px;
+    transition: opacity 0.3s ease-in-out; /* Adding transition effect */
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+#sizeSelect-font{
+    margin-left: 4%;
+}
+
+.sub-catergory p{
+    line-height: 1.5;
+    padding: 30px;
+    font-size: larger;
+    margin-bottom: 20px;
+}
+
+
+
+
+.color{
+    display: grid;
+    grid-template-columns: 3fr 1fr;    
+    padding-top: 130px;
+    padding-left: 15px;
+}
+
+.sub-catergory {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.gallery-catergory-1,
+.gallery-catergory-2,
+.gallery-catergory-3,
+.gallery-catergory-4 {
+    background: #4c899d;
+    padding-top: 10px;
+    border-radius: 16px;
+    height: 360px;
+    transition: width 0.9s ease-in-out, transform 0.3s ease-in-out; /* Added transform property */
+    transform: scale(1); /* Added initial scale */
+}
+
+.gallery-catergory-1:hover,
+.gallery-catergory-2:hover,
+.gallery-catergory-3:hover,
+.gallery-catergory-4:hover {
+    background: #195e75;
+    width: 420px;
+    height: 400px;
+    cursor: pointer;
+    border: 1px solid black;
+    transform: scale(1.05); /* Added scale transformation */
+}
+
+div h3{
+    margin-bottom: 10px;
+}
+
+div h4{
+    margin-top: 20px;
+}
+
+
+.sub-catergory img {
+    margin: 5px;
+}
+
+.container-gallery {
+    text-align: center;
+}
+
+.container-gallery h1,  .container-gallery h2 {
+    margin-bottom: 15px;
+}
+
+.buttons button {
+    background: #000;
+    color: white;
+    font-weight: bolder;
+    font-size: large;
+    border-radius: 25px;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.head {
+    position: relative;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+body {
+    background-image: url("../BG_img.jpg");
+    overflow-x: hidden;
+}

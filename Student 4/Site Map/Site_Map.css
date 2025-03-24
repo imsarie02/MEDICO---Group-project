@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+body {
+    background: green;
+    background-image: url("../pharmacy\ web\ template_1.png");
+    background-repeat: no-repeat;
+    background-size: cover; /* Ensures the background image covers the entire background */
+    background-position: center; /* Centers the background image */
+    background-attachment: fixed; /* Fixes the background image in place so it doesn't scroll with the content */
+    width: 100%;
+}
+
+
+
+
+.rectangle-site-map{
+    fill: #195e75;;
+}
+
+.text-site-map{
+    fill: wheat;
+    font-size: larger;
+}
+
+.line-site-map{
+    stroke:rgb(91, 241, 80);
+    stroke-width: 5; 
+}
+
+
+#header{
+    padding-top: 120px;
+    text-align: center;
+}
